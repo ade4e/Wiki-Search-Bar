@@ -9,6 +9,11 @@ $("document").ready(function () {
       ".</p>"
     );
   }
+  function hideKeyboard() {
+    document.activeElement.blur();
+    $("input").blur();
+  };
+
   $("#icon-search").click(function () {
     $("#userSearchResultsTable").empty();
     var keyword = $("#search").val();
@@ -41,6 +46,7 @@ $("document").ready(function () {
             );
           }
           $(".container").css("padding-top", "0");
+          hideKeyboard();
         }
       },
 

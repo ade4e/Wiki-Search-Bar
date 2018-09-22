@@ -23,7 +23,6 @@ h2 {
 
 main {
    background-color: #141414;
-   
 }
 
 .bor {
@@ -56,15 +55,17 @@ main {
       padding: 0 !important;
    }
    #search {
-      width: 90%;
+      width: 60%;
+      margin-right: auto;
+      margin-left: auto;
       height: 50px;
-      margin-left: 2.5%;
    }
    #search:focus {
       border-right: 2px solid #fff;
+      width: 75%;
    }
    .material-icons {
-      margin-right: 15px;
+      margin-right: 10.5%;
    }
 }
 
@@ -83,7 +84,7 @@ main {
       margin-left: 15%;
    }
    .material-icons {
-      margin-right: 12%;
+      margin-right: 10.5%;
    }
 }
 
@@ -151,6 +152,7 @@ footer a:hover {
 
 input {
    padding-left: 15px !important;
+   padding-right: 15px !important;
 }
 
 h5 {
