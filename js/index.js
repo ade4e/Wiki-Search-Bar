@@ -35,7 +35,7 @@ $("document").ready(function () {
               "<h5>" +
               response.query.search[i].title +
               "</h5>" +
-              response.query.search[i].snippet +
+              response.query.search[i].snippet + " ..." +
               "<br><br>" + "</div>" +
               "</a>"
             );
