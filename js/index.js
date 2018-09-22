@@ -15,8 +15,7 @@ $("document").ready(function () {
 
     $.ajax({
       url:
-        "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=info&list=search&inprop=url&srsearch=" +
-        keyword,
+        "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=info&list=search&inprop=url&srsearch=" + keyword,
       dataType: "jsonp",
       type: "POST",
       success: function (response) {
@@ -41,6 +40,7 @@ $("document").ready(function () {
               "</a>"
             );
           }
+          $(".container").css("padding-top", "0");
         }
       },
 
